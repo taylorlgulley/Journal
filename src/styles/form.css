@@ -1,0 +1,29 @@
+:root {
+    --box-size: border-box
+}
+
+#journalForm {
+    margin: 0.5em 0 0 0;
+    background-color: #98967E;
+}
+
+#journalName {
+    box-sizing: var(--box-size);
+    width: 100%;
+}
+
+.entryContent {
+    display: flex;
+    flex-direction: column;
+}
+
+#entryContent {
+    margin: 0.5em 0 0 0;
+    box-sizing: var(--box-size);
+    width: 100%;
+}
+
+#saveEntry {
+    background-color: rgb(130, 200, 228);
+    color: black;
+}
